@@ -1,0 +1,51 @@
+html, body {
+    width: 100%;
+    height: 100%;
+}
+
+#messages-container {
+    height: 100%;
+    overflow: scroll;
+}
+
+#chat {
+    width: 450px;
+    height: 600px;
+    margin: 10px;
+    border: 1px solid darkgray;       
+}
+
+.new-message {
+    width: 100%;
+    display: flex;
+}
+
+.new-message-input {
+    flex-grow: 1;
+    padding: 10px 20px;
+}
+
+.user-one button {
+    background-color: darkorchid;
+    color: white;
+}
+
+.user-two button {
+    background-color: aquamarine;
+}
+
+.message {
+    width: fit-content;
+    padding: 10px;
+    border-radius: 5px 5px 0 5px;
+    margin: 5px;
+}
+
+.user-one-message {
+    background-color: darkorchid;
+    color: white;
+}
+
+.user-two-message {
+    background-color: aquamarine;
+}
