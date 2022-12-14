@@ -11,12 +11,17 @@ body {
     width: 1024px;
     display: flex;
     flex-flow: column;
+    gap: 10px
 }
 
 #photo-display {
     width: 100%;
     height: 683px;
     background-color: azure;
+}
+
+#photo-display img {
+    width: 100%;
 }
 
 #photo-carrousel {
@@ -34,9 +39,9 @@ body {
 }
 
 .thumbnail:hover {
-    filter: brightness(0.9);
+    filter: brightness(0.8);
 }
 
-.thumbnail:nth-child(odd) {
-    background-color: coral;
+.thumbnail img {
+    width: 100%;
 }
